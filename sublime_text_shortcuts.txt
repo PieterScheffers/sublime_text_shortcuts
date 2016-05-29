@@ -1,0 +1,101 @@
+GOTO
+
+ctrl + P : Goto anything
+ctrl + R : Goto symbol
+ctrl + G : Goto line number
+
+ctrl + shift + R : Goto symbol in project
+(click on symbol) + F12 : Goto definition
+
+ctrl + m : Goto matching bracket
+
+EDITING TEXT
+
+New Line
+enter : insert newline
+ctrl + enter : insert newline AFTER current line
+ctrl + shift + enter : insert newline BEFORE current line
+
+Copy/Pasting
+
+(cursor on line) + ctrl + c : Copy line to clipboard
+(cursor on line) + ctrl + x : Cut line to clipboard
+ctrl + k, ctrl + v : list last clipboard
+
+Delete end/begin of line
+ctrl + shift + backspace : Delete begin of line
+ctrl + k, ctrl + k : Delete end of line
+ctrl + shift + k : Delete line
+
+Bubble line
+ctrl + shift + up : bubble line up
+ctrl + shift + down : bubble line down
+
+Join lines
+ctrl + j : join 2 lines
+
+Insert newline every 80 characters
+alt + q : insert newline every 80 characters
+
+sort lines
+(select multiple lines with mouse) + F9 : sort lines (case insensitive)
+(select multiple lines with mouse) + ctrl + F9 : sort lines (case sensitive)
+
+duplicate lines
+ctrl + shift + d : duplicate line
+
+File
+ctrl + N : new file
+
+Undo/redo
+ctrl + z : undo
+ctrl + y : redo
+
+Soft undo/redo
+ctrl + u : undo input
+ctrl + shift + u : redo input
+
+History soft undo/redo (across tabs)
+alt + - : undo last action
+alt + shift + - : redo last action
+
+Uppercase/lowercase
+ctrl + k, ctrl + l : lowercase word
+ctrl + k, ctrl + u : uppercase word
+
+characters
+ctrl + t : change place for 2 adjacent characters
+
+indent
+ctrl + ] : indent line
+ctrl + [ : unindent line
+
+comment
+ctrl + / : comment out a line
+
+html
+alt + . : insert html closing tag
+
+SELECTION
+
+multiple cursors
+ctrl + (mouseclick) : insert cursor
+shift + (right click) + (drag) : insert cursors for column
+(select text) - ctrl + shift + l : insert cursor at selected lines
+
+ctrl + d : select next occurence of selection or word
+ctrl + k, ctrl + d : skip occurrence
+
+select line
+ctrl + l : select current line
+ctrl + l, ctrl + l : select current line + next line etc.
+
+select content
+ctrl + shift + m : select content between brackets
+ctrl + shift + j : select content with with indentation level
+ctrl + shift + space : select content in the same scope (disable shortcut for sublimecodeintel)
+
+folding
+ctrl + shift + [ : fold one level
+ctrl + shift + ] : unfold one level
+
